@@ -1,0 +1,106 @@
+// Styling for the masthead
+.header {
+  align-items: center;
+  background-color: #EFEFEF;
+  background-image: url('../img/header-bg.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-top: 4px solid $primary;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  min-height: 250px;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 420px)  {
+  .header {
+    background-size: auto 100%;
+  }
+}
+
+.header:before {
+  background: rgba(0, 0, 0, .7);
+  bottom: 0;
+  content: ' ';
+  display: block;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header * {
+  position: relative;
+  z-index: 2;
+  text-shadow: 1px 1px 10px black;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  font-family: "Helvetica Neue", Arial, serif;
+}
+
+.header h2 {
+  font-size: 2.1rem;
+  font-weight: 100;
+  margin: 5px 0;
+}
+
+/* Old */
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  @include background-cover;
+  .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 25px;
+      @include serif-font;
+    }
+    .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      @include heading-font;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+      .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        @include heading-font;
+      }
+    }
+  }
+}

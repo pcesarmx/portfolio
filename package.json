@@ -1,0 +1,33 @@
+{
+	"title": "Paulo Ruvalcaba Portfolio",
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Paulo Ruvalcaba woking experience.",
+	"keywords": [
+		"paulo",
+		"ruvalcaba"
+	],
+	"homepage": "",
+	"license": "MIT",
+	"author": "Paulo Ruvalcaba",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pcesarmx/portfolio.git"
+	},
+	"dependencies": {
+		"bootstrap": "4.0.0",
+		"font-awesome": "4.7.0",
+		"jquery": "3.3.1",
+		"jquery.easing": "^1.4.1"
+	},
+	"devDependencies": {
+		"browser-sync": "2.23.6",
+		"gulp": "^3.9.1",
+		"gulp-clean-css": "3.9.2",
+		"gulp-header": "2.0.1",
+		"gulp-pug": "^4.0.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.1.0",
+		"gulp-uglify": "3.0.0"
+	}
+}
