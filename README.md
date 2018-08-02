@@ -4,11 +4,11 @@
 
 ## Preview
 
-[![Portfolio Preview1](https://github.com/pcesarmx/portfolio/assets/imgs/preview1.jpg)](https://github.com/pcesarmx/portfolio/)
-[![Portfolio Preview2](https://github.com/pcesarmx/portfolio/assets/imgs/preview2.jpg)](https://github.com/pcesarmx/portfolio/)
-[![Portfolio Preview3](https://github.com/pcesarmx/portfolio/assets/imgs/preview3.jpg)](https://github.com/pcesarmx/portfolio/)
+[![Portfolio Preview1](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview1.png)](https://github.com/pcesarmx/portfolio/)
+[![Portfolio Preview2](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview2.png)](https://github.com/pcesarmx/portfolio/)
+[![Portfolio Preview3](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview3.png)](https://github.com/pcesarmx/portfolio/)
 
-**[View Live Preview](https://LIVE_URL.COM/)**
+**[View Live Preview](http://pruvalcaba.com/)**
 
 ## Status
 
@@ -48,11 +48,11 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/pcesarmx/portfolio/issues) here on GitHub or leave a comment on the [template overview page at Paulo's Professional Portfolio](http://LIVE_URL.COM/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/pcesarmx/portfolio/issues) here on GitHub or leave a comment on the [template overview page at Paulo's Professional Portfolio](http://pruvalcaba.com/).
 
 ## Custom Builds
 
-You can hire Paulo's Professional Portfolio to create a custom build of any template, or create something from scratch. For more information, visit my page **[custom design services page](https://LIVE_URL.COM/)**.
+You can hire Paulo's Professional Portfolio to create a custom build of any template, or create something from scratch. For more information, visit my page **[custom design services page](http://pruvalcaba.com/)**.
 
 ## About
 
@@ -61,13 +61,13 @@ Paulo's Professional Portfolio is an open source library of free Bootstrap templ
 * https://startbootstrap.com
 * https://twitter.com/SBootstrap
 
-Paulo's Professional Portfolio was created by and is maintained by **[Paulo C Ruvalcaba](http://LIVE_URL.COM/)**.
+Paulo's Professional Portfolio was created by and is maintained by **[Paulo C Ruvalcaba](http://pruvalcaba.com/)**.
 
 * https://github.com/pcesarmx
 
 Paulo's Professional Portfolio is a page based on one [Blackrock Digital's](https://github.com/BlackrockDigital/startbootstrap-agency/) repositories created by [David Miller](https://github.com/davidtmiller/).
 
-Paulo's Professional Portfolio is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+This repository is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 
 ## Copyright and License
