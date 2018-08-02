@@ -1,18 +1,18 @@
-# [Paulo's Professional Portfolio](https://github.com/pcesarmx/portfolio/)
+# Paulo's Professional Portfolio]
 
-[Portfolio](https://github.com/pcesarmx/portfolio/) This page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals in addition with PUG (JADE) views.
+This page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals in addition with PUG (JADE) views.
 
 ## Notes
 
-Use [Portfolio-api](https://github.com/pcesarmx/portfolio-api/) to work with the contact form.
+Use [Portfolio-API](https://github.com/pcesarmx/portfolio-api/) to work with the contact form.
 
 ## Preview
 
-[![Portfolio Preview1](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview1.png)](https://github.com/pcesarmx/portfolio/)
-[![Portfolio Preview2](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview2.png)](https://github.com/pcesarmx/portfolio/)
-[![Portfolio Preview3](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview3.png)](https://github.com/pcesarmx/portfolio/)
+![Portfolio Preview1](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview1.png)
+![Portfolio Preview2](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview2.png)
+![Portfolio Preview3](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview3.png)
 
-**[View Live Preview](http://pruvalcaba.com/)**
+## [View Live Preview](http://pruvalcaba.com/)
 
 ## Status
 
@@ -25,10 +25,11 @@ Use [Portfolio-api](https://github.com/pcesarmx/portfolio-api/) to work with the
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Paulo's Professional Portfolio](https://github.com/pcesarmx/portfolio/)
-<!-- * Install via npm: `npm i startbootstrap-agency` -->
-* Clone the repo: `git clone https://github.com/pcesarmx/portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/pcesarmx/portfolio)
+- Clone the repo: `git clone https://github.com/pcesarmx/portfolio.git`
+- Install gulp (if you don't have it installed) 
+ `npm i -g gulp` 
+- Install project dependencies
+ `npm i`
 
 ## Usage
 
@@ -52,11 +53,12 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/pcesarmx/portfolio/issues) here on GitHub or leave a comment on the [template overview page at Paulo's Professional Portfolio](http://pruvalcaba.com/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/pcesarmx/portfolio/issues) here on GitHub.
 
 ## Custom Builds
 
-You can hire Paulo's Professional Portfolio to create a custom build of any template, or create something from scratch. For more information, visit my page **[custom design services page](http://pruvalcaba.com/)**.
+You can hire Paulo to create a custom web application, or create something from scratch.
+For more information, **[visit my freelancer page](http://pruvalcaba.com/)**.
 
 ## About
 
