@@ -1,6 +1,10 @@
 # [Paulo's Professional Portfolio](https://github.com/pcesarmx/portfolio/)
 
-[Portfolio](https://github.com/pcesarmx/portfolio/) This page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working NODEJS contact form, in addition with PUG (JADE) views.
+[Portfolio](https://github.com/pcesarmx/portfolio/) This page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals in addition with PUG (JADE) views.
+
+## Notes
+
+Use [Portfolio-api](https://github.com/pcesarmx/portfolio-api/) to work with the contact form.
 
 ## Preview
 
