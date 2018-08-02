@@ -1,4 +1,4 @@
-# Paulo's Professional Portfolio]
+# Paulo's Professional Portfolio
 
 This page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals in addition with PUG (JADE) views.
 
