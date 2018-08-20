@@ -78,4 +78,4 @@ This repository is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2013-2018. Code released under the [MIT](https://github.com/pcesarmx/portfolio/master/LICENSE) license.
+Copyright 2013-2018. Code released under the [MIT](https://github.com/pcesarmx/portfolio/blob/master/LICENSE) license.
