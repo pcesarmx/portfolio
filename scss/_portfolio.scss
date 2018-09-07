@@ -64,6 +64,9 @@ $portfolio-main-detail-max: 600px;
         @include serif-font;
       }
     }
+    .img-fluid {
+        border-radius: 5%;
+    }
     .img-main {
         width: $portfolio-main-detail-max!important;
     }
