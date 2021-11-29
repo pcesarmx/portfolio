@@ -331,7 +331,7 @@ header.masthead .intro-text .intro-heading {
 
 section#skills {
   background-color: #212529;
-  background-image: url("../img/pexels-kevin-ku-577585.jpg");
+  background-image: url("../img/skills.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -1010,17 +1010,23 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 section#experiments {
-  background: linear-gradient(#343a40, rgba(206, 212, 218, 0.51)), url("../img/pexels-thisisengineering-3861972.jpg");
+  background: linear-gradient(#343a40, rgba(33, 37, 41, 0.46)), url("../img/experiments.jpg");
 }
 
 section#experiments .section-heading {
   color: #fff;
 }
 
+section#experiments .portfolio-link {
+  color: #ddd !important;
+  text-decoration: underline;
+  font-size: .8em;
+}
+
 section#experiments .text-muted {
   color: #ddd !important;
 }
 
-section#experiments .section-heading, section#experiments .show-more, section#experiments .skill-heading {
-  color: white;
+section#experiments .section-heading, section#experiments .show-more, section#experiments .skill-heading, section#experiments .text-muted {
+  color: #fff;
 }

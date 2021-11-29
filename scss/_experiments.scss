@@ -3,17 +3,24 @@ section#experiments {
     background: 
         linear-gradient(
             rgb(52, 58, 64),
-            rgba(206, 212, 218, 0.51))
-        , url('../img/pexels-thisisengineering-3861972.jpg');
+            rgba(33, 37, 41, 0.46))
+        , url('../img/experiments.jpg');
     .section-heading {
         color: $white;
     }
-        
+
+    .portfolio-link {
+        color: $brand!important;
+        text-decoration: underline;
+        font-size: .8em;
+    }
+    
     .text-muted {
         color: $brand!important;
-      }
-    .section-heading, .show-more, .skill-heading {
-        color: white;
+        // color: $white;
+    }
+    .section-heading, .show-more, .skill-heading, .text-muted {
+        color: $white;
     }
     
 }
