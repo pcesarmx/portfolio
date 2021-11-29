@@ -2,14 +2,20 @@
 #mainNav {
   background-color: $gray-900;
   .navbar-toggler {
-    font-size: 12px;
+    // font-size: 12px;
     right: 0;
-    padding: 13px;
+    padding: 10px 12px;
     text-transform: uppercase;
     color: $white;
     border: 0;
-    background-color: $primary;
+    // background-color: $primary;
+    // border: #28a745 2px solid;
+    border: $toggler 2px solid;
     @include heading-font;
+  }
+  .navbar-toggler:visited {
+    border: $toggler 2px solid;
+    text-decoration: none;
   }
   .navbar-brand {
     color: $white;

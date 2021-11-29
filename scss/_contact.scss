@@ -4,6 +4,16 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
+
+  ul.social-buttons li a {
+    transition: all .3s;
+    color: #fff;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #343a40;
+    border: 1px #28a745 solid;
+  }
+
   .section-heading {
     color: $white;
   }

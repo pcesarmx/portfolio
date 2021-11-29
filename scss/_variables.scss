@@ -18,14 +18,21 @@ $black: #000 !default;
 /*$primary: #39a2b8 !default;*/
 /*$primary: #356da9 !default;*/
 /*$primary: #39a2b8 !default;*/
-$primary: #6289b1 !default;
+// $primary: #6289b1 !default;
+$primary: #117a8b !default;
 $brand: #ddd !default;
+
+$toggler: #28a745 !default;
 
 $closebtnPX: 75px;
 $closebtnPXsm: 20px;
 
 /*$link: #ffc107;*/
 $link: $primary;
+
+// Rinosnet
+$derco-primary: #fff13e;
+$derco-primary-rgba: rgba(0, 123, 255, 0.41);
 
 // Rinosnet
 $rn-primary: #dc3545;

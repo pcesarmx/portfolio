@@ -1,5 +1,27 @@
 // Styling for the services section
+section#skills {
+  background-color: $gray-900;
+  background-image: url('../img/pexels-kevin-ku-577585.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  .text-muted {
+    color: $brand!important;
+  }
+  .section-heading, .show-more, .skill-heading {
+    color: white;
+  }
+}
+section#skills:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(13, 11, 28, 0.8);
+}
+
 .skill-heading {
   margin: 15px 0;
   text-transform: none;
 }
+

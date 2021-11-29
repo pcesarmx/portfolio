@@ -1,0 +1,19 @@
+// Styling for the contact section
+section#experiments {
+    background: 
+        linear-gradient(
+            rgb(52, 58, 64),
+            rgba(206, 212, 218, 0.51))
+        , url('../img/pexels-thisisengineering-3861972.jpg');
+    .section-heading {
+        color: $white;
+    }
+        
+    .text-muted {
+        color: $brand!important;
+      }
+    .section-heading, .show-more, .skill-heading {
+        color: white;
+    }
+    
+}

@@ -4,6 +4,9 @@
 $portfolio-main-detail-max: 600px;
 
 #portfolio {
+  .section-heading {
+    color: $gray-800;
+  }
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -211,6 +214,21 @@ $portfolio-main-detail-max: 600px;
   font-weight: bolder;
   font-size: 4em;
   /*text-shadow: 2px 4px #222;*/
+}
+
+// DERCOFOODS
+.carousel-indicators-derco {
+  bottom: 0px;
+}
+.carousel-indicators-derco li {
+  background-color: $derco-primary;
+}
+.slider-nav-derco {
+  color: $derco-primary;
+  /*border-radius: 15px;*/
+}
+.portfolio-hover-derco {
+  background: $derco-primary-rgba!important;
 }
 
 

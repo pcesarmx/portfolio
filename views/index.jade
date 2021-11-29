@@ -11,6 +11,7 @@ html(lang='en')
         // Custom fonts for this template
         link(href='vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        //- link(href='https://fonts.googleapis.com/css?family=Avenir:400,700', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
         link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
@@ -30,9 +31,9 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#aboutme') About
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#skills') Skills
-                        li.nav-item
                             a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#skills') Skills
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#experiments') Experiments
                         li.nav-item
@@ -57,7 +58,7 @@ html(lang='en')
                     h5 pcesarmx@hotmail.com
                 .row
                     .col-lg-12.text-center
-                        h2.section-heading.text-uppercase about me
+                        //- h2.section-heading.text-uppercase about me
                         //- h3.section-subheading.text-muted I love to make people happy and their life easy using software.
                 .row
                     .col-sm-4
@@ -110,11 +111,108 @@ html(lang='en')
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted I am from &nbsp;
                             a(href="https://en.wikipedia.org/wiki/Guadalajara" target="_blank") Guadalajara Mexico.
-                            | &nbsp;I obtained my degree in Computer Science in 2006 from the University of Guadalajara. Then, I started my professional career working as full-time Computer Programmer for Financial Institutions.
-                            | I moved to the U.S.A in 2010 and I attended Reedley College to improve my English language skills. I also took several computer classes and joined the Reedley College PC Club. Since 2011 I am continuing working as Full-Stack Computer Programmer for privates companies in &nbsp;
+                            | &nbsp;I obtained my degree in Computer Science in 2006 from the University of Guadalajara. Then, I started my professional career working as a full-time Computer Programmer for Financial Institutions.
+                            | I moved to the U.S.A in 2010. I attended Reedley College to improve my English language skills. I also took several computer classes and joined the Reedley College PC Club. Since 2011 I am continuing working as Full-Stack Computer Programmer for private companies in &nbsp;
                             a(href="https://en.wikipedia.org/wiki/Fresno,_California" target="_blank") Fresno, CA.
                         //- p.large.text-muted
                             | I am happily married and currently living in Fresno, CA. On my free time I enjoy playing video games, hanging out with friends and family, going out to dinner and movies with my wife and research about new tech concepts.
+        // Portfolio Grid
+        section#portfolio.d-print-none
+            .container
+                .row
+                    .col-lg-12.text-center
+                        h2.section-heading.text-uppercase Portfolio
+                        //- h3.section-subheading.text-muted Some of the work I have done since 2007
+                        //- .show-more Click on each picture to see more details.
+                .row
+                    .col-md-4.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal7')
+                            .portfolio-hover.portfolio-hover-derco
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.fixed-img.img-fluid(src='img/portfolio/07-thumbnail.png', alt='')
+                        .portfolio-caption
+                            h4 Supplier/Trading firm
+                            p.text-muted Mobile App Develompment
+                    .col-md-4.portfolio-item
+                        a.portfolio-link.portfolio-link-main(data-toggle='modal', href='#portfolioModal3')
+                            .portfolio-hover.portfolio-hover-ev
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid.img-main(src='img/portfolio/03-thumbnail.jpg', alt='')
+                        .portfolio-caption.portfolio-caption-main
+                            h4 Multi Level Marketing
+                            p.text-muted Sr. Software Engineer
+                    .col-md-4.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
+                            .portfolio-hover.portfolio-hover-rn
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.fixed-img.img-fluid(src='img/portfolio/01-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 Multi Level Marketing
+                            p.text-muted Full-Stack Develompment
+                .row
+                    .col-md-3
+                    .col-md-6.portfolio-item
+                        span.text-center.align-middle
+                            //- i.fa.fa-5x.fa-star-o
+                        //- h6 Click on the pictures to see details.
+                        //- h6 Work that shows some of my computer programming experience
+                    .col-md-4.col-sm-6.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
+                            .portfolio-hover.portfolio-hover-tv
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid(src='img/portfolio/02-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 Online Training
+                            p.text-muted Full-Stack Develompment
+                    //- .col-md-4.col-sm-6.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal3')
+                            .portfolio-hover.portfolio-hover-ev
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid(src='img/portfolio/03-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 Multi Level Marketing
+                            p.text-muted Sr. Software Engineer
+                    .col-md-4.col-sm-6.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
+                            .portfolio-hover.portfolio-hover-supm
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid(src='img/portfolio/04-supermas-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 Retail Stores
+                            p.text-muted POS Hardware Interface
+                    .col-md-4.col-sm-6.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
+                            .portfolio-hover.portfolio-hover-evis
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid(src='img/portfolio/05-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 Audio Distribution
+                            p.text-muted Full Development - Mobile
+                    .col-md-4.col-sm-6.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
+                            .portfolio-hover.portfolio-hover-isi
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid(src='img/portfolio/06-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 IT Services
+                            p.text-muted Jr. Software Enginier
+                    //- .col-md-4.col-sm-6.portfolio-item
+                        a.portfolio-link(data-toggle='modal', href='#portfolioModal7')
+                            .portfolio-hover
+                                .portfolio-hover-content
+                                    //- i.fa.fa-plus.fa-3x
+                            img.img-fluid(src='img/portfolio/07-thumbnail.jpg', alt='')
+                        .portfolio-caption
+                            h4 Non Profit Organiz   sssation.
+                            p.text-muted Full-Stack Development
         // Skills
         section#skills
             .container.no-selectable
@@ -315,95 +413,7 @@ html(lang='en')
                                 li MAC, Windows, Linux, Solaris
                                 li
                                     | Eclipse, NetBeans, Visual Studio, Sublime Text, SQL Management Studio, MySql Workbentch, Oracle SQL Developer, Aquadata Studio
-        // Portfolio Grid
-        section#portfolio.bg-light.d-print-none
-            .container
-                .row
-                    .col-lg-12.text-center
-                        h2.section-heading.text-uppercase Portfolio
-                        //- h3.section-subheading.text-muted Some of the work I have done since 2007
-                        //- .show-more Click on each picture to see more details.
-                .row
-                    .col-md-3
-                    .col-md-6.portfolio-item
-                        a.portfolio-link.portfolio-link-main(data-toggle='modal', href='#portfolioModal3')
-                            .portfolio-hover.portfolio-hover-ev
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid.img-main(src='img/portfolio/03-thumbnail.jpg', alt='')
-                        .portfolio-caption.portfolio-caption-main
-                            h4 Multi Level Marketing
-                            p.text-muted Sr. Software Engineer
 
-                .row
-                    .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
-                            .portfolio-hover.portfolio-hover-rn
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.fixed-img.img-fluid(src='img/portfolio/01-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 Multi Level Marketing
-                            p.text-muted Full-Stack Develompment
-                    .col-md-4.portfolio-item.text-center.text-details.d-none.d-md-block
-                        span.text-center.align-middle
-                            //- i.fa.fa-5x.fa-star-o
-                        //- h6 Click on the pictures to see details.
-                        //- h6 Work that shows some of my computer programming experience
-                    .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
-                            .portfolio-hover.portfolio-hover-tv
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid(src='img/portfolio/02-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 Online Training
-                            p.text-muted Full-Stack Develompment
-                    //- .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal3')
-                            .portfolio-hover.portfolio-hover-ev
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid(src='img/portfolio/03-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 Multi Level Marketing
-                            p.text-muted Sr. Software Engineer
-                    .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal4')
-                            .portfolio-hover.portfolio-hover-supm
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid(src='img/portfolio/04-supermas-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 Retail Stores
-                            p.text-muted POS Hardware Interface
-                    .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal5')
-                            .portfolio-hover.portfolio-hover-evis
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid(src='img/portfolio/05-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 Audio Distribution
-                            p.text-muted Full Development - Mobile
-                    .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal6')
-                            .portfolio-hover.portfolio-hover-isi
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid(src='img/portfolio/06-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 IT Services
-                            p.text-muted Jr. Software Enginier
-                    //- .col-md-4.col-sm-6.portfolio-item
-                        a.portfolio-link(data-toggle='modal', href='#portfolioModal7')
-                            .portfolio-hover
-                                .portfolio-hover-content
-                                    i.fa.fa-plus.fa-3x
-                            img.img-fluid(src='img/portfolio/07-thumbnail.jpg', alt='')
-                        .portfolio-caption
-                            h4 Non Profit Organiz   sssation.
-                            p.text-muted Full-Stack Development
         section#experiments.d-print-none
             .container
                 .row
@@ -413,13 +423,13 @@ html(lang='en')
                 .row
                     .col-md-3
                     .col-md-6.portfolio-item
-                        a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.pruvalcaba.com")
+                        a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.paulocr.com")
                             img.img-fluid.img-main(src='https://raw.githubusercontent.com/pcesarmx/unity-test2d/master/Previews/preview3.png', alt='')
                         hr
                         .row
                             .col-6
                                 h4
-                                    a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl2.pruvalcaba.com") Demo
+                                    a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl2.paulocr.com") Demo
                             .col-6.text-right
                                 h4
                                     a.portfolio-link.portfolio-link-main(target="_blank" href="https://github.com/pcesarmx/unity-test2d") Repository
@@ -430,13 +440,13 @@ html(lang='en')
                 .row
                     .col-md-3
                     .col-md-6.portfolio-item
-                        a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.pruvalcaba.com")
+                        a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.paulocr.com")
                             img.img-fluid.img-main(src='https://raw.githubusercontent.com/pcesarmx/unity-3d/master/Previews/preview1.png', alt='')
                         hr
                         .row
                             .col-6
                                 h4
-                                    a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.pruvalcaba.com") Demo
+                                    a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.paulocr.com") Demo
                             .col-6.text-right
                                 h4
                                     a.portfolio-link.portfolio-link-main(target="_blank" href="https://github.com/pcesarmx/unity-3d") Repository
@@ -452,7 +462,7 @@ html(lang='en')
                         .row
                             //- .col-6
                                 h4
-                                    a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.pruvalcaba.com") Demo
+                                    a.portfolio-link.portfolio-link-main(target="_blank" href="http://webgl1.paulocr.com") Demo
                             .col-12.text-right
                                 h4
                                     a.portfolio-link.portfolio-link-main(target="_blank" href="https://github.com/pcesarmx/api") Repository
@@ -464,7 +474,7 @@ html(lang='en')
                     .col-lg-12.text-center
                         h2.section-heading.text-uppercase Contact Me
                         //- h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                    //- .col-lg-12.text-center
+                    .col-lg-12.text-center
                         ul.list-inline.social-buttons
                             li.list-inline-item
                                 a( href="https://github.com/pcesarmx", target="_blank")
@@ -475,9 +485,9 @@ html(lang='en')
                             li.list-inline-item
                                 a( href="https://www.linkedin.com/in/paulo-ruvalcaba-04390962", target="_blank")
                                     i.fa.fa-linkedin
-                    .col-lg-12.text-center
+                    //- .col-lg-12.text-center
                         h3.section-subheading.text-muted.text-right &nbsp; Thank you in advance.
-                .row
+                //- .row
                     .col-lg-12
                         form#contactForm(name='sentMessage', novalidate='')
                             .row
@@ -1279,6 +1289,85 @@ html(lang='en')
                                         li
                                             | Category:
                                             i IT Services especialized in financial institutions.
+                                    button.btn.btn-primary(data-dismiss='modal', type='button')
+                                        i.fa.fa-times
+                                        |                     Close
+        #portfolioModal7.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss='modal')
+                        .lr
+                            .rl
+                    .container
+                        .row
+                            .col-lg-12.mx-auto
+                                .modal-body
+                                    // Project Details Go Here
+                                    //- h2.text-uppercase Rinosnet
+                                    p.item-intro.text-muted DercoFoods Mobile App​​
+                                    //- img.img-fluid.d-block.mx-auto( src="img/portfolio/01-full.jpg", alt="")
+                                    #dercoCarousel.carousel.slide(data-ride='carousel')
+                                        ol.carousel-indicators.carousel-indicators-derco
+                                            li.active(data-target='#dercoCarousel', data-slide-to='0')
+                                            li(data-target='#dercoCarousel', data-slide-to='1')
+                                            li(data-target='#dercoCarousel', data-slide-to='2')
+                                            //- li(data-target='#dercoCarousel', data-slide-to='3')
+                                            //- li(data-target='#dercoCarousel', data-slide-to='4')
+                                        .carousel-inner(role='listbox')
+                                            .carousel-item.active
+                                                img.d-block.img-fluid.slider-pf(src='img/portfolio/07-derco-slide-1.png', alt='')
+                                            .carousel-item
+                                                img.d-block.img-fluid.slider-pf(src='img/portfolio/07-derco-slide-2.png', alt='')
+                                            .carousel-item
+                                                img.d-block.img-fluid.slider-pf(src='img/portfolio/07-derco-slide-3.png', alt='')
+                                            //- .carousel-item
+                                                img.d-block.img-fluid.slider-pf(src='img/portfolio/07-derco-slide-4.png', alt='')
+                                            
+                                        a.carousel-control-prev(href='#dercoCarousel', role='button', data-slide='prev')
+                                            //- span.carousel-control-prev-icon( aria-hidden="true")
+                                            span.sr-only Previous
+                                            i.fa.fa-2x.fa-angle-left.slider-nav-derco(aria-hidden='true')
+                                        a.carousel-control-next(href='#dercoCarousel', role='button', data-slide='next')
+                                            //- span.carousel-control-next-icon( aria-hidden="true")
+                                            span.sr-only Next
+                                            i.fa.fa-2x.fa-angle-right.slider-nav-derco(aria-hidden='true')
+                                    p
+                                        ul
+                                            li.text-left
+                                                b A mobile app to track shipments, notify changes of status on the shipments (containers) and delivery contracts in PDF format.
+                                                |
+                                            li.text-left
+                                                b Used in China, India, Dubai, and the U.S.A
+                                                
+                                    
+                                    p
+                                    p
+                                    h4.item-intro.text-muted Development Specifications:
+                                    ul
+                                        li.text-left
+                                            b Enterprise Development Concepts:
+                                            | Backend Develpment over VPN,
+                                            | Biometrics features,
+                                            | Embedded PDF Reader,
+                                            | Realtime Data-binding,
+                                            | Push Notifications, and more
+                                        li.text-left
+                                            b  Programming Languages:
+                                            |  Angular, Python FLASK, Cordova, Firebase
+                                    p
+                                    ul.list-inline
+                                        li
+                                            | Date:
+                                            i Jun 2021 - August 2021
+                                        li
+                                            | Client:
+                                            i Derco Associates, Inc.
+                                        li
+                                            | Location:
+                                            i Fresno, CA
+                                        li
+                                            | Category:
+                                            i Supplier/Trading Firm.
                                     button.btn.btn-primary(data-dismiss='modal', type='button')
                                         i.fa.fa-times
                                         |                     Close
