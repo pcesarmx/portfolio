@@ -17,3 +17,5 @@ fi
 mkdir $TMP_DIR
 cp -r ./css ./img ./js ./vendor index.html $TMP_DIR
 aws s3 cp $TMP_DIR $BKT --recursive --acl public-read --profile derco
+
+aws cloudfront create-invalidation --distribution-id EY9EXVO7HYJ68 --paths "/*" --profile derco
