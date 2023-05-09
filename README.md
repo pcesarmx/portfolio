@@ -1,3 +1,6 @@
+WIDGET to try
+https://codepen.io/dghez/pen/abRVQL
+
 # Paulo's Professional Portfolio
 
 This page features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals in addition with PUG (JADE) views.
@@ -12,7 +15,7 @@ Use [Portfolio-API](https://github.com/pcesarmx/portfolio-api/) to work with the
 ![Portfolio Preview2](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview2.png)
 ![Portfolio Preview3](https://raw.githubusercontent.com/pcesarmx/portfolio/master/assets/imgs/preview3.png)
 
-## [View Live Preview](http://www.paulocr.com/)
+## [View Live Preview](http://www.pruvalcaba.com/)
 
 ## Status
 
@@ -60,7 +63,7 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 ## Custom Builds
 
 You can hire Paulo to create a custom web application, or create something from scratch.
-For more information, **[visit my freelancer page](http://www.paulocr.com/)**.
+For more information, **[visit my freelancer page](http://www.pruvalcaba.com/)**.
 
 ## About
 
@@ -69,7 +72,7 @@ Paulo's Professional Portfolio is an open source library of free Bootstrap templ
 * https://startbootstrap.com
 * https://twitter.com/SBootstrap
 
-Paulo's Professional Portfolio was created by and is maintained by **[Paulo C Ruvalcaba](http://www.paulocr.com/)**.
+Paulo's Professional Portfolio was created by and is maintained by **[Paulo C Ruvalcaba](http://www.pruvalcaba.com/)**.
 
 * https://github.com/pcesarmx
 

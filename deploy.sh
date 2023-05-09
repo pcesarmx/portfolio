@@ -1,13 +1,13 @@
 #!/bin/bash
 
-BKT="s3://www.paulocr.com/"
+BKT="s3://www.pruvalcaba.com/"
 # BKT="s3://www.pruvalcaba.com/"
 ENVI="DEVEL"
 TMP_DIR="./_public/"
 
 if [ "$1" = "prod" ]; then
-    BKT="s3://www.paulocr.com/"
-    # BKT="s3://www.pruvalcaba.com/"
+    # BKT="s3://www.paulocr.com/"
+    BKT="s3://www.pruvalcaba.com/"
     ENVI="PRODUCTION"
 fi
 echo "Uploading PORTFOLIO to $BKT ($ENVI)"
